@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3XB9FNFGRP"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-3XB9FNFGRP');
+	</script>
+	
+	
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Add icon libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css" title="style" />
+
+    <!-- Favicon -->
+    <!--<link rel="icon" type="image/png" href="figs/ece_logo.png"/>-->
+    
+    <title>Bryce L. Ferguson | UCSB</title>
+    <style>
+        .pub, .nav-link {
+            color: #343a40;
+            background-color: #d5d9de;
+        }
+
+        .pub:hover {
+            color: #23272b;
+            border-bottom: 0px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            color: #23272b;
+            border-bottom: 0px;
+            text-decoration: none;
+            background-color: #edf3fc
+        }
+
+        .pdf {
+            color: #b31b1b;
+        }
+
+        .pdf:hover {
+            color: #711111;
+        }
+
+        .pdf:not([href]):not([tabindex]) {
+            color: darkgrey;
+            text-decoration: none;
+        }
+
+        .jumbotron_pic {
+			background: url("./figs/berkeley_panorama.png") no-repeat;
+			background-size: cover;
+        }
+		.jumbotron {
+            background-color:#e1eaf7 !important;
+        }
+
+        .socialicon {
+            background: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            vertical-align: middle;
+            padding: 10px;
+            margin: 0px 10px 0px 0px;
+        }
+
+        .socialicon:hover {
+            background: #007bff;
+            color: white;
+        }
+
+        .socialicongroup {
+            margin: 0px 0px 1rem 0px;
+        }
+
+        button:focus {
+            outline: 0px;
+        }
+
+        .card:hover {
+            border-color: black;
+            background-color: #edf3fc;
+        }
+		.pic_block {
+			background-color: #e1eaf7;
+		}
+    </style>
+  </head>
+ <body>
+    <div class="jumbotron_pic jumbotron-fluid" style="margin-bottom: 0px; padding-bottom: 0px; padding-top: 1cm">
+        <div class="container">
+			<div class="text-sm-left text-center">
+				<div class="row">
+					<div class="col-sm-7" style="margin-left:10px; margin-right:20px">
+						<h1>Bryce L. Ferguson</h1>
+					</div>
+					<div class="col-sm-4" style="margin-left:10px; margin-right:20px">
+						<div class="text-right" style="padding-top: 0px;">
+							<img src="./figs/California_Golden_Bears_logo.png" class="rounded my-2" style="width: auto; height:100px; margin-right:20px" alt="cal_logo">
+							<img src="./figs/D-Pine_RGB.png" class="rounded my-2" style="width: auto; height:100px; margin-left:20px" alt="dart_logo">
+						</div>
+					</div>
+				</div>
+			</div>
+            <div id="nav" style="padding-top:cm">
+                <ul class="nav nav-tabs" role="tablist"> 
+                    <li class="nav-item" role="presentation"> 
+                        <button class="nav-link active" id="home-tab" data-toggle="tab" href="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                    </li> 
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="research-tab" data-toggle="tab" href="#research" type="button" role="tab" aria-controls="research" aria-selected="false">Research</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false">Publications</button>
+                    </li>
+					<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="speaking-tab" data-toggle="tab" href="#speaking" type="button" role="tab" aria-controls="speaking" aria-selected="false">Speaking</button>
+                    </li>
+					<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" type="button" role="tab" aria-controls="teaching" aria-selected="false">Teaching</button>
+                    </li>
+					<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="collaborators-tab" data-toggle="tab" href="#collaborators" type="button" role="tab" aria-controls="collaborators" aria-selected="false">Collaborators</button>
+                    </li>
+					<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="personal-tab" data-toggle="tab" href="#personal" type="button" role="tab" aria-controls="personal" aria-selected="false">Personal</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top:30px; margin-bottom: 30px">
+        <div class="tab-content">            
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+				<div class="row" style="margin-bottom:0px">
+					<div class="col-sm-7">
+						<div class="pic_block">
+							<div class="row" style="padding-bottom:0px">
+								<div class="col-sm-3" style="margin-left:0px; margin-right:0px">
+									<div class="text-sm-right" style="margin-left:10px; margin-right:10px; padding-bottom: 5px; padding-top:10px">
+										<img src="./figs/Bryce_pic_wb_tight.png" class="rounded my-2" style="width: 180px; height:auto;" alt="Profile Picture">
+									</div>
+								</div>
+								<div class="col-sm-9" style="margin-left:0px">
+									<div class="text-sm-left text-center"  style="margin-left:35px; padding-top:10px">
+										<p><h9><b>Bryce L. Ferguson</b></h9><br>
+										    <b>Postdoctoral Researcher</b> - University of California, Berkeley<br>
+											Department of Electrical Engineering & Computer Science<br>
+											Department of Civil & Environmental Engineering<br>
+											<b>Incoming Assistant Professor</b> - Dartmouth College (F2025)<br>
+											Thayer School of Engineering<br>
+										</p>
+										<div class="socialicongroup" style="margin-left:40px; margin-top:0px">
+											<a href="https://scholar.google.com/citations?user=Uvf5vywAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-2x socialicon"></i></a>
+											<a href="https://www.researchgate.net/profile/Bryce-Ferguson-2" target="_blank"><i class="ai ai-researchgate ai-2x socialicon"></i></a>
+											<a href="https://arxiv.org/a/ferguson_b_1.html" target="_blank"><i class="ai ai-arxiv ai-2x socialicon"></i></a>
+											<a href="https://www.linkedin.com/in/bryce-ferguson-petaluma/" target="_blank"><i class="fa fa-linkedin fa-2x socialicon"></i></a>
+											<a href="./misc/FergusonCV.pdf" target="_blank"><i class="ai ai-cv ai-2x socialicon"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									
+								</div>
+								<div class="col-sm-1">
+									<p style="margin-left:40px">Email:</p>
+								</div>
+								<!--<div class="col-sm-5">
+									<a href="mailto:blferguson@ece.ucsb.edu"><tt>blferguson@berkeley.edu</tt></a>
+								</div>-->
+								<div class="col-sm-5">
+									<a style="margin-left:40px" href="mailto:Bryce.L.Ferguson@dartmouth.edu"><tt>Bryce.L.Ferguson@dartmouth.edu</tt></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  class="col-sm-5">
+						<p class="text-justify" style="margin-bottom:0px">
+							<p style="margin-bottom:10px">I am a postdoctoral researcher at University of California, Berkeley working with <a href="https://people.eecs.berkeley.edu/~sastry/" target="_blank">Shankar Sastry</a> and <a href="https://sites.google.com/view/manxi-wu/home" target="_blank">Manxi Wu</a>.</p>
+							<p style="margin-bottom:10px"><i><b>I will be joining the Thayer School of Engineering at Dartmouth College in September 2025!</b></i><br></p>
+							Before this, I received my Ph.D. in Electrical and Computer Engineering at the <a href="https://www.ucsb.edu/" target="_blank">University of California, Santa Barbara</a> under the supervision of <a href="https://web.ece.ucsb.edu/~jrmarden/" target="_blank">Jason R. Marden</a>.<!-- in the <a href="https://www.ccdc.ucsb.edu/" target="_blank">Center for Control, Dynamical-Systems, and Computation (CCDC)</a>.-->
+							I received my B.S. and M.S. in Electrical Engineering from the University of California, Santa Barbara in 2018 and 2020, respectively, and my A.A. in Mathematics from Santa Rosa Junior College in 2016.
+						</p>
+					</div>
+				</div>
+				<div style="margin-bottom:20px; margin-top:20px">
+					I am currently hiring graduate students and postdocs. If interested, please reach out and apply to Dartmouth for the Fall 2025 term!
+				</div>
+                <div>
+                    <p class="text-justify"><strong>Research Overview:</strong> I am interested in the theory of multi-agent systems. Specifically, I am interested in understanding the emergent behavior of multiple decision makers and the mechanisms we can use to influence them. This interest manifests in the context of distributed control in cyber-physical systems and influencing mechanisms in socio-technical systems. To study this, I use tools from game theory, optimization, control theory, and machine learning.</p>
+                </div>
+                <h3 style="margin-top:30px; margin-bottom: 30px">Select Publications</h3>
+                <div class="row" id="selpub"></div>
+                <h3 style="margin-top:30px; margin-bottom: 30px">News</h3>
+                <div class="row" id="news" style="margin-bottom: 50px"></div>
+            </div>
+            <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+			<h8>Research</h8>
+				<div class="row" style="margin-bottom:20px">
+					<div  class="col-sm-1.5">
+						<div class="text-sm-right" style="padding-left: 20px;">
+							<img src="./figs/cphs.png" class="rounded my-2" style="width: 100px; height:auto;" alt="CPHS">
+						</div>
+					</div>
+					<div  class="col-sm-9">
+						<b>Cyber-physical human systems</b> - In systems such as traffic networks and power grids, the behavior of human users has a significant impact on system performance. To effectively design these systems, engineers must consider the societal response of their users, around which there exists much uncertainty. With the influx of technology via individuals' personal devices, great opportunities arise to coordinate behavior (e.g., autonomous routing and load shifting); however, so too do great challenges in identifying and designing effective control mechanisms.
+						<br><b>Relevant Publications:</b> [<a href="./Publications/Ferguson2021_subsvstolls.pdf" target="_blank">TAC</a>], [<a href="./Publications/Ferguson2021_fair.pdf" target="_blank">ACC</a>], [<a href="./Publications/Paccagnan2021_optimal.pdf" target="_blank">TEAC</a>]
+					</div>
+				</div>
+				<div class="row" style="margin-bottom:20px">
+					<div  class="col-sm-1.5">
+						<div class="text-sm-right" style="padding-left: 20px;">
+							<img src="./figs/social_net.png" class="rounded my-2" style="width: 100px; height:auto;" alt="Social Network">
+						</div>
+					</div>
+					<div  class="col-sm-9">
+						<b>Social Networks & Bayesian Persuasion</b> - People are becoming increasingly connected via public and private internet channels. Influencing the flow of information can be effective in altering users' beliefs and behavior, such as marketing products and disseminating public safety information. However, there are cases where this phenomenon is anything but positive: conspiracies and fake news. With these online information-sharing platforms only growing more numerous, it is becoming invaluable to study what mechanisms we can use to promote truthfulness and clarity.
+						<br><b>Relevant Publications:</b> [<a href="./Publications/Ferguson2022_avoid.pdf" target="_blank">CDC</a>], [<a href="https://arxiv.org/pdf/2306.12603.pdf" target="_blank">LCSS</a>]
+					</div>
+				</div>
+				<div class="row" style="margin-bottom:20px">
+					<div  class="col-sm-1.5">
+						<div class="text-sm-right" style="padding-left: 20px;">
+							<img src="./figs/fleet.png" class="rounded my-2" style="width: 100px; height:auto;" alt="Fleet control">
+						</div>
+					</div>
+					<div  class="col-sm-9">
+						<b>Multi-Agent/Distributed Control</b> - With the improved capabilities of small computers, the opportunity to distribute decision-making to system sub-components promises to greatly expand and simplify the control of robotic fleets, cloud computing, and more. However, the effective operation of distributed systems is susceptible to communication and sub-system failures. Before widespread use, it is necessary to first understand what can be done to make applicable control techniques more robust and identify how components should communicate and make decisions.
+						<br><b>Relevant Publications:</b> [<a href="./Publications/Ferguson2022_robust.pdf" target="_blank">DGAA</a>], [<a href="https://arxiv.org/pdf/2308.08045.pdf" target="_blank">CDC</a>]
+					</div>
+				</div>
+				<div class="row" style="margin-bottom:20px">
+					<div  class="col-sm-1.5">
+						<div class="text-sm-right" style="padding-left: 20px;">
+							<img src="./figs/secure.png" class="rounded my-2" style="width: 100px; height:auto;" alt="security">
+						</div>
+					</div>
+					<div  class="col-sm-9">
+						<b>Security/Defense: Cyber and Physical</b> - With increased autonomy, we would like to make sure our systems remain safe. In large cyber-physical systems, we want to protect information and prevent access to vulnerable processes. Similarly, in physical areas we want to secure, new security technology can help maintain surveillance. To utilize this technology effectively, we must understand how to allocate our resources with uncertainty over what attacks we may see.
+						<br><b>Relevant Publications:</b> [<a href="./Publications/Ferguson2022_ddab.pdf" target="_blank">Allerton</a>], [<a href="./Publications/Chen2022_path.pdf" target="_blank">ACC</a>],
+					</div>
+				</div>
+            </div>
+            <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+            </div>
+			<div class="tab-pane fade" id="speaking" role="tabpanel" aria-labelledby="speaking-tab">
+			<h8>Presentations</h8>
+			<ul>
+				<li>"Beyond Local Decision-Making: The Efficacy of Collaborative Architectures in Multi-Agent Systems," for the ONR Science of Autonomy review meeting, Alexandria, VA, July 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the Semi-autonomous series at University of California, Berkeley, July 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," invited seminar for a research group in Electrical Engineering and Applied Mathematics department at Harvard University, March 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the Center for Control, Dynamical Systems, and Computation at the University of California, Santa Barbara, March 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the Department of Electrical and Computer Engineering at North Carolina State University, March 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," Jones Seminar for the Thayer School of Engineering at Dartmouth College, February 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the Industrial and Systems Engineering Department at Texas A\& M University, February 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the Department of Civil and Environmental Engineering at the University of Michigan, February 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," for the Autonomy Talks seminar series virtually hosted by the Institute for Dynamic Systems and Control at ETH Zurich, January 2024.</li>
+				<li>"Information as Control: Emerging Paradigms for Multi-Agent Systems," seminar for the School of Manufacturing Systems and Networks at Arizona State University, January 2024.</li>
+				<li>"Collaborative Coalitions in Multi-Agent Systems: Quantifying the Strong Price of Anarchy for Resource Allocation Games,” at the 62nd IEEE Conference on Decision and Control (CDC), Singapore, December 2023.</li>
+				<li>"Markov Games with Decoupled Dynamics: Price of Anarchy and Sample Complexity,” at the 62nd IEEE Conference on Decision and Control (CDC), Singapore, December 2023.</li>
+				<li>"The Cost of Informed Decision Making in Multi-Agent Maximum Coverage Problems,” at the 62nd IEEE Conference on Decision and Control (CDC), Singapore, December 2023.</li>
+				<li>"Collaborative Decision-Making and the k-Strong Price of Anarchy in Common Interest Games,” at the 42nd Southern California Control Workshop at the University of California, Riverside, November 2023.</li>
+				<li>"Information as Control: Emerging Control Paradigms for Multi-Agent Systems,” seminar for the Co-PI seminar series at the University of California, San Diego, November 2023.</li>
+				<li>"Information as Control: The Role of Communication in Multi-Agent Systems,” student seminar for the ECE department at the University of California, Santa Barbara, October 2023.</li>
+				<li>"Game Theory and Multi-Agent Systems: Local Decision-Making for Global Performance" - Lunch & Learn, UC Santa Barbara Graduate Division Seminar, July 2023.</li>
+				<li>"Information as Control: The Role of Communication in Distributed Systems" - Invited seminar for AY23 Seminar Series at University of California, Santa Cruz, May 2023. <a href="misc\info_as_control.pdf" target="blank">[Slides]</a></li>
+				<li>"Information and Influence: Overcoming and Exploiting Uncertainty in Congestion Games" - Invited seminar for Dynamics and Control of Networks (DANCE) research team at University of Grenoble - Alpes, November 2022. </li>
+				<li>"The Tragedy of the Commons and The Price of Anarchy" - Invited talk for Mechanism Design for Social Good (MD4SG) Climate & Environment working group, October 2022. </li>
+				<li>"Information and Influence: Overcoming and Exploiting Uncertainty in Congestion Games" - Invited seminar for POLARIS research team at University of Grenoble - Alpes, October 2022.</li>
+				<li>"Ensuring the Defense of Paths and Perimeters in Dynamic Defender-Attacker Blotto Games (dDAB) on Graphs" - <a href="https://allerton.csl.illinois.edu/" target="blank">58th Annual Allerton Conference on Communication, Control, and Computing</a> at Urbana/Champagne Illinois, September 2022.</li>
+				<li>"Information and Influence: Overcoming and Exploiting Uncertainty in Congestion Games" - ControlX Series at University of Washington, June 2022. <a href="publications\Info_infl_UW.pdf" target="blank">[Slides]</a></li>
+				<li>"Avoiding Unintended Consequences: How Incentives Aid Information Provisioning in Bayesian Congestion Games" - <a href="http://georgiou.eng.uci.edu/SoCal_Spring_2022/index.html" target="blank">39th Southern California Control Workshop</a> at University of California, Irvine, April 2022.  <a href="publications\info_cdc_slides.pdf" target="blank">[slides]</a></li>
+				<li>"Robust Utility Design in Distributed Resource Allocation Problems with Defective Agents" - <a href="https://2021.ieeecdc.org/" target="blank">The 2021 IEEE Conference on Decision and Contol</a> at Austin, Texas, December 2021. <a href="publications\CDC2021_Defective_agents.mp4" target="blank">[video]</a>  <a href="publications\Defective_agents_slides.pdf" target="blank">[slides]</a></li>
+				<li>"The Effectiveness of Subsidies and Taxes in Atomic Congestion Games" - <a href="https://2021.ieeecdc.org/" target="blank">The 2021 IEEE Conference on Decision and Contol</a> at Austin, Texas, December 2021. <a href="publications\CDC2021_atomic_subsvtaxes.mp4" target="blank">[video]</a> <a href="publications\CDC2021_atomic_subsvtaxes_slides.pdf" target="blank">[slides]</a> </li>
+				<li>"The Impact of Fairness on Performance in Congestion Networks" - <a href="http://acc2021.a2c2.org/" target="blank">The 2021 IEEE American Controls Conference</a> at New Orleans, Louisiana, May 2021. <a href="publications\ACC2021_slides_fairness_vid2.mp4" target="blank">[video]</a>  </li>
+				<li>"Research in Congestion Games: Incentives and Information" - Invited talk at Decision Science and Control Lab at University of Colorado, Colorado Springs, April 2021.</li>
+				<li>"Carrots or Sticks? The Effectiveness of Subsidies and Tolls in Congestion Games" - <a href="http://acc2020.a2c2.org/" target="blank">The 2020 American Controls Conference</a> at Denver, Colorado, July 2020. <a href="publications\ACC2020_slides_Carrots_or_Sticks_p8_720.mp4" target="blank">[video]</a>  <strong>[Best student paper award finalist]</strong> </li>
+				<li>"Carrots or Sticks? The Effectiveness of Subsidies and Tolls in Congestion Games" - <a href="https://www.ccdc.ucsb.edu/events" target="blank">CCDC Prospective Student Visit Day</a> at UC Santa Brabara, California, February 2020. </li>
+				<li>"Utilizing Information Optimally in Distributed Network Routing” - <a href="https://cdc2019.ieeecss.org/" target="blank">58th Conference on Decision and Control</a> at Nice, France, December 2019</li>
+				<li>"Optimal Planning of Workplace Electric Vehicle Charging Infrastructure with Smart Charging Opportunities” - <a href="https://www.ieee-itsc2018.org/" target="blank">21st IEEE International Conference on Intelligent Transportation Systems</a> at Maui, Hawaii, USA, December 2018</li>
+			</ul>
+			<h8>Posters</h8>
+			<ul>
+				<li>"Information as  Control: Advancing Control Paradigms for Emerging Multi-Agent Systems" - 2023 IEEE Conference on Decision and Control Job Market Poster Session, Singapore, December 2023.</li>
+				<li>"Understanding the Role of Information in the Control of Cyber-Physical Systems" - <a href="https://cps-rising-stars2022.com/" target="blank">Cyber-Physcial Systems Rising Stars Workshop</a> at University of Virginia, May 2022. <a href="publications\CPS_poster.pdf" target="blank">[Poster]</a>
+			</ul>
+            </div>
+			<div class="tab-pane fade" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
+				<div class="tab-content">   
+					<h8>UCSB Teaching Assistant</h8>
+					<hr>
+					<ul>
+						<li>ECE 194D Spring 2023 - Foundations of Reinforcement Learning
+						<li><a href="https://web.ece.ucsb.edu/~jrmarden/ece149.html" target="_blank">ECE 149 Fall 2021</a> - Game Theory for Networked Systems</li>
+						<li>ECE 271C Spring 2021 - Optimal Control and Dynamic Programming (<em>Grader</em>)</li>
+						<li>ECE 149 Fall 2020 - Game Theory for Networked Systems</li>
+						<li>ECE 271C Spring 2020 - Optimal Control and Dynamic Programming (<em>Grader</em>)</li>
+						<li>ECE 594D Winter 2020 - Mechanism Design (<em>Grader</em>)</li>
+						<li>ECE 194V Fall 2019 - Special Topics in Game Theory</li>
+						<li>ECE 194V Winter 2019 - Special Topics in Game Theory</li>
+					</ul>
+					<h8>Research Mentoring</h8>
+					<hr>
+						<ul>
+							<li>Yixiao (Bella) Yue, Masters Student Researcher at UCSB on <a href="https://ieeexplore.ieee.org/document/9682974" target="_blank">Incentive Design for Congestion Games with Unincentivizable Users</a>.</li>
+						</ul>
+					<h8>PIPELINES Mentoring</h8><p><a href="https://pipelines-csep.cnsi.ucsb.edu/" target="_blank">Program details</a></p>
+					<hr>
+						<ul>
+							<li>NAVAIR Interns on SCEPTRE AI: artificial intelligence to preform code reviews and detect security hazards in Navy software</li>
+							<li>NAVFAC Interns on Pier Structure from Motion (SfM) Utilizing Unmanned Aircraft Systems (UAS)</li>
+						</ul>
+					<h8>UCSB RMP</h8><p><a href="https://www.summer.ucsb.edu/pre-college/research-mentorship-program-rmp" target="_blank">Program details</a></p>
+					<hr>
+						<ul>
+							<li>"The Consequences of Asynchronous Communication in Distributed Optimization Networks and Federated Learning" by Ethan Liu</li>
+							<li>"Autonomous Vehicle Platooning Communication Strucutures" by Jack Ke</li>
+							<li>"Improving the Efficiency and Scalability of Multi-Drone Surveillance Systems with Decentralized Control” by Adit Shah [<a href="publications\RMP\Shah2019.pdf" target="_blank">PROJECT</a>]</li>
+							<li>"The Self-Driving Pizza Car: Optimizing Control Algorithms for Autonomous Delivery Systems” by Nischal Sinha [<a href="publications\RMP\Sinha2019.pdf" target="_blank">PROJECT</a>]</li>
+							<li>"An Efficient and Centralized Multi-Robot Surveillance System with Optimized Path Planning” by Siddharth Ganesan</li> <!-- [<a href="RMP_Siddharth.html">PROJECT</a>]</li> -->
+						</ul>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="collaborators" role="tabpanel" aria-labelledby="collaborators-tab">
+				<p>I have had the fortune of working with many fantastic researchers:</p>
+				<ul>
+					<li><a href="https://web.ece.ucsb.edu/~jrmarden/" target="_blank">Jason R. Marden</a> - University of California, Santa Barbara</li>
+					<li><a href="http://cs.uccs.edu/~pbrown2/index.html" target="_blank">Philip N. Brown</a> - University of Colorado, Colorado Springs</li>
+					<li><a href="https://rahul-chandan.github.io/" target="_blank">Rahul Chandan</a> - Amazon Robotics</li>
+					<li><a href="https://www.doc.ic.ac.uk/~dp414/" target="_blank">Dario Paccagnan</a> - Imperial College London</li>
+					<li><a href="https://scholar.google.com/citations?user=GLuEaaEAAAAJ&hl=en" target="_blank">Yixiao (Rey) Yue</a> - University of California, Santa Barbara</li>
+					<li><a href="https://sites.google.com/site/kpaarporn/" target="_blank">Keith Paarporn</a> - University of Colorado, Colorado Springs</li>
+					<li><a href="https://rohit-konda.github.io/" target="_blank">Rohit Konda</a> - University of California, Santa Barbara</li>
+					<li><a href="https://www.davidgrimsman.com/" target="_blank">David Grimsman</a> - Brigham Young University</li>
+					<li><a href="https://nathanieltucker.github.io/" target="_blank">Nathaniel Tucker</a> - Apple</li>
+					<li><a href="https://web.ece.ucsb.edu/~alizadeh/" target="_blank">Mahnoosh Alizadeh</a> - University of California, Santa Barbara</li>
+					<li><a href="https://www.grasp.upenn.edu/people/austin-chen/" target="_blank">Austin Chen</a> - University of Pennsylvania</li>
+					<li><a href="http://shishika.com/" target="_blank">Daigo Shishika</a> - George Mason University</li>
+					<li>Michael Dorothy - DEVCOM Army Research Laboratory</li>
+					<li><a href="https://www.georgejpappas.org/" target="_blank">George J. Pappas</a> - University of Pennsylvania</li>
+					<li><a href="https://www.kumarrobotics.org/" target="_blank">Vijay Kumar</a> - University of Pennsylvania</li>
+					<li><a href="https://scholar.harvard.edu/runyu-cathy-zhang" target="_blank">Runyu (Cathy) Zhang</a> - Harvard University</li>
+					<li><a href="https://scholar.google.com/citations?hl=en&user=NiBKGakAAAAJ" target="_blank">Yuyang Zhang</a> - Harvard University</li>
+					<li><a href="https://nali.seas.harvard.edu/" target="_blank">Na (Lina) Li</a> - Harvard University</li>
+					<li><a href="https://barypradelski.com/" target="_blank">Bary S. R. Pradelski</a> - (CNRS) Grenoble Informatics Lab</li>
+					<li><a href="https://vadeshah.github.io/" target="_blank">Vade Shah</a> - University of California, Santa Barbara</li>
+				</ul>
+			</div>
+			<div class="tab-pane fade" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+				<p>In my free time I enjoy hiking/backpacking, barbecuing, and playing the banjo.<p>
+				<p>I am a proud native of Petaluma, California. Nicknamed the <i>Egg Basket of The World</i>, Petaluma is known for its historic downtown, local wineries and breweries, and the Petaluma river which lets out into the San Pablo bay. Petaluma also hosted the first organized <a href="http://theual.com/history" target="_blank">arm wrestling tournament</a>.<p>
+			</div>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title text-capitalize" id="modalTitle">Modal Title</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="modalAuthors">Modal Authors</div>
+                    <div id="modalAbstract">Modal Abstract.</div>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a id="modalarXiv" class="pdf"><i class="fas fa-globe fa-2x"></i></a>
+                    <a id="modalPDF" class="pdf"><i class="fas fa-file-pdf fa-2x"></i></a>
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom: 0">
+        <h7>Disclaimer: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. <br>This website is covered by the <a href="./gpl-3.0.txt" target="_blank">GNU Standard License, Version 3 (GPLv3)</a>.</h7>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/db57e2a7e9.js"></script>
+    <script type="text/javascript" src="news.js"></script>
+    <script type="text/javascript" src="publications.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+ </body>
+</html>

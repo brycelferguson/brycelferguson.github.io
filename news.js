@@ -1,5 +1,15 @@
 news = [
 	{
+        "date": "September 2025",
+        "body": "I am starting as an Assistant Professor in the Thayer School of Engineering at Dartmouth College!",
+		"url": ""
+	},
+	{
+        "date": "July 2025",
+        "body": "My colleagues Philip Brown and Chih-Yuan Chiu hosted a  workshop on Mixed Autonomy in Transportation at the American Controls Conference!",
+		"url": "https://sites.google.com/view/acc2025workshoponmixedautonomy"
+	},
+	{
         "date": "September 2024",
         "body": "I am starting an appointment as a one-year postdoctoral researcher at University of California, Berkeley working with Shankar Sastry and Manxi Wu. Looking forward to meeting many new people in the Bay Area!",
 		"url": ""
